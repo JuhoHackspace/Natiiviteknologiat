@@ -1,0 +1,2 @@
+# Natiiviteknologiat
+Täällä on kurssin Mobiiliohjelmointi natiiviteknologioilla kotitehtävien ratkaisut

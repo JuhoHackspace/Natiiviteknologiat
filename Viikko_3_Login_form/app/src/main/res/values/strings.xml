@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Login_form</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="email_icon">Email icon</string>
+    <string name="password">Password</string>
+    <string name="lock_icon">Lock icon</string>
 </resources>

@@ -34,6 +34,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.text.input.VisualTransformation
@@ -66,7 +67,7 @@ fun LoginForm() {
             .padding(top = 32.dp, start = 4.dp, end = 4.dp)
     ){
         Text(
-            text = "Login",
+            text = stringResource(R.string.login),
             modifier =
                 Modifier
                     .padding(bottom = 16.dp, start = 4.dp),
@@ -76,7 +77,7 @@ fun LoginForm() {
         OutlinedTextField(
             value = email,
             onValueChange = { email = it },
-            label = { Text("Username") },
+            label = { Text(stringResource(R.string.username)) },
             modifier = Modifier
                 .padding(4.dp)
                 .fillMaxWidth(),
@@ -85,7 +86,7 @@ fun LoginForm() {
             trailingIcon = {
                 Icon(
                     imageVector = Icons.Filled.Email,
-                    contentDescription = "Email icon",
+                    contentDescription = stringResource(R.string.email_icon),
                     tint = Color.Gray
                 )
             }
@@ -94,7 +95,7 @@ fun LoginForm() {
         OutlinedTextField(
             value = password,
             onValueChange = { password = it },
-            label = { Text("Password") },
+            label = { Text(stringResource(R.string.password)) },
             modifier = Modifier
                 .padding(4.dp)
                 .fillMaxWidth(),
@@ -103,7 +104,7 @@ fun LoginForm() {
             trailingIcon = {
                 Icon(
                     imageVector = Icons.Filled.Lock,
-                    contentDescription = "Lock icon",
+                    contentDescription = stringResource(R.string.lock_icon),
                     tint = Color.Gray)
             },
             visualTransformation = PasswordVisualTransformation()

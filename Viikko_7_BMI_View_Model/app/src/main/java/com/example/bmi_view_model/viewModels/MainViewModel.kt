@@ -1,4 +1,4 @@
-package com.example.bmi_view_model.ui.theme.viewModels
+package com.example.bmi_view_model.viewModels
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

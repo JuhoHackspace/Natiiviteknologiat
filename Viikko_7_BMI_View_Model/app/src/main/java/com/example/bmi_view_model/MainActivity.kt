@@ -26,7 +26,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.bmi_view_model.ui.theme.BMI_View_ModelTheme
-import com.example.bmi_view_model.ui.theme.viewModels.MainViewModel
+import com.example.bmi_view_model.viewModels.MainViewModel
 
 class MainActivity : ComponentActivity() {
     private val viewModel: MainViewModel by viewModels()
